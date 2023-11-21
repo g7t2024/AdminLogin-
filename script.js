@@ -1,15 +1,13 @@
 document.getElementById("loginForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // Simulação de autenticação no lado do servidor
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    // Substitua esta lógica por autenticação real
+    // Simulação de autenticação no lado do servidor
     if (username === "usuario" && password === "senha") {
-        alert("Login bem-sucedido!");
-        // Redirecionar ou realizar outras ações após o login
+        window.location.href = "dashboard.php";
     } else {
-        alert("Credenciais inválidas. Tente novamente.");
+        document.getElementById("errorMessage").innerText = "Credenciais inválidas. Tente novamente.";
     }
 });
