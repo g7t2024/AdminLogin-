@@ -1,16 +1,11 @@
-<?php
-// Simulação de autenticação no lado do servidor
-$expectedUsername = "usuario";
-$expectedPassword = "senha";
-
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-if ($username === $expectedUsername && $password === $expectedPassword) {
-    // Login bem-sucedido, redirecionar para a página de dashboard
-    header("Location: dashboard.php");
-    exit(); // Certifique-se de encerrar o script após o redirecionamento
-} else {
-    echo "Credenciais inválidas. Tente novamente.";
-}
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
