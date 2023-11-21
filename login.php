@@ -12,5 +12,6 @@ if ($username === $expectedUsername && $password === $expectedPassword) {
     exit(); // Certifique-se de encerrar o script após o redirecionamento
 } else {
     echo "Credenciais inválidas. Tente novamente.";
+    // Se você quiser exibir uma mensagem de erro, certifique-se de não ter mais código HTML após isso
 }
 ?>
