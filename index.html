@@ -9,11 +9,14 @@
 <body>
     <div class="container">
         <form id="loginForm" action="login.php" method="post">
+            <h1>Login</h1>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
+
+            <p id="errorMessage" class="error-message"></p>
             
             <button type="submit">Login</button>
         </form>
