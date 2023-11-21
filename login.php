@@ -1,7 +1,7 @@
 <?php
 // Simulação de autenticação no lado do servidor
-$expectedUsername = "usuario";
-$expectedPassword = "senha";
+$expectedUsername = "admin";
+$expectedPassword = "root";
 
 $username = $_POST['username'];
 $password = $_POST['password'];
