@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     const password = document.getElementById("password").value;
 
     // Substitua esta lógica por autenticação real
-    if (username === "usuario" && password === "senha") {
+    if (username === "admin" && password === "root") {
         alert("Login bem-sucedido!");
         // Redirecionar ou realizar outras ações após o login
     } else {
