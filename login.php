@@ -8,7 +8,7 @@ $password = $_POST['password'];
 
 if ($username === $expectedUsername && $password === $expectedPassword) {
     // Login bem-sucedido, redirecionar para a página de dashboard
-    header("Location: dashboard.php");
+    header("Location: dashboard.html");
     exit(); // Certifique-se de encerrar o script após o redirecionamento
 } else {
     echo "Credenciais inválidas. Tente novamente.";
