@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
 
     // Simulação de autenticação no lado do servidor
     if (username === "usuario" && password === "senha") {
-        window.location.href = "dashboard.php";
+        window.location.href = "dashboard.html";
     } else {
         document.getElementById("errorMessage").innerText = "Credenciais inválidas. Tente novamente.";
     }
